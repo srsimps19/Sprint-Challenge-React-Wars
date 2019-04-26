@@ -1,5 +1,6 @@
 import React from 'react';
 import Characters from './Characters';
+import './character.scss';
 
 function CharactersList(props) {
     return(

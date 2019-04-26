@@ -1,8 +1,8 @@
 import React from 'react';
+import './character.scss';
 
 function Characters(props) {
     let classNames = "character"
-    console.log(props)
     return (
         <div className={classNames}>
             <h3>{props.char.name}</h3>
