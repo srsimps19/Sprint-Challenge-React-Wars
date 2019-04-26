@@ -40,7 +40,7 @@ class App extends Component {
     return (
       <div className="App">
         <h1 className="Header">React Wars</h1>
-        <CharactersList starwarsChars={this.state.starwarsChars} getCharacters={this.getCharacters} />
+        <CharactersList starwarsChars={this.state.starwarsChars} componentDidMount={this.componentDidMount} />
       </div>
     );
   }

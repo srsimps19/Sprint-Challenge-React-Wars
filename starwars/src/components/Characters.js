@@ -1,11 +1,12 @@
 import React from 'react';
 
 function Characters(props) {
+    let classNames = "character"
     return (
-        <div className="char-card">
+        <div className={classNames}>
             <h3>{props.character.name}</h3>
             <p>
-                <strong>Birth Year: </strong> {props.characters.birthYear}
+                <strong>Birth Year: </strong> {props.character.birthYear}
             </p>
         </div>
     );
